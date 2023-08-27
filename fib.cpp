@@ -10,5 +10,5 @@ int main(){
   i = stoi(s);
 
   
-  std::cout << i;
+  std::cout << i << '\n';
 }
