@@ -1,6 +1,8 @@
 #include <iostream>
 #include <string>
 
+int fibonacci(int n);
+
 int main(){
   std::string s;
   int i;
@@ -10,5 +12,9 @@ int main(){
   i = stoi(s);
 
   
-  std::cout << i << '\n';
+  std::cout << fibonacci(i) << '\n';
+}
+
+int fibonacci(int n){
+  return n;
 }
